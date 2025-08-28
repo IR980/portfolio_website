@@ -1,354 +1,331 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio Website</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Irshad | Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet" />
 </head>
+
 <body>
-    <header>
-        <div class="logo"><span>Portfo</span>lio</div> 
-        <ul class="navlist">
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="logo">IRSHAD.DEV</div>
+        <input type="checkbox" id="menu-toggle" hidden>
+        <label for="menu-toggle" class="menu-icon"><i class="fas fa-bars"></i></label>
+        <ul class="nav-links">
             <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Services</a></li>
-            <li><a href="#">Skills</a></li>
-            <li><a href="#">portfolio</a></li>
-            <li><a href="#">Contect</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
         </ul>
-        <div id="menu-icon">
-            <i class="fa-solid fa-bars"></i>
-        </div>
-    </header>
-    <section id="home" class="home">
-        <div class="home-content scroll-scale">
-            <h1>Hi! I'm Irshad</h1>
-            <div class="change-text">
-                <h3>And I'm</h3>
-                <h3>
-                    <span class="word">Python Programming</span>
-                    <span class="word">Web Developer</span>
-                    <span class="word">Java Developer</span>
-                </h3>
-            </div>
-            <p>Product Designer And Digital Creative Director Working
-            in Design Field for fresher so for.specialized for AI/ML,Branding
-            and digital design.</p>
-            <div class="info-box">
-                <div class="email-info">
-                    <h5>Email :</h5>
-                    <span>ia3055951@gmail.com</span>
-                </div>
-                <div class="behance-info">
-                    <h5>Behance :</h5>
-                    <span>behance.net/irshad</span>
-                </div>
-            </div>
-            <div class="btn-box">
-                <a href="#" class="btn">Download Cv</a>
-                <a href="#" class="btn">Hire Me Now</a>
-            </div>
-            <div class="social-icon">
-                <a href="#"><i class="fa-brands fa-facebook"></i></a>
-                <a href="#"><i class="fa-brands fa-instagram"></i></a>
-                <a href="#"><i class="fa-brands fa-twitter"></i></a>
-                <a href="#"><i class="fa-brands fa-dribbble"></i></a>
-            </div>
-        </div>
-        <div class="home-image">
-            <div class="img-box">
-                <img src="irshad.jpg" alt="">
-            </div>
-            
-        </div>
-    </section>
-    <!---about section------>
-     <section id="about" class="about">
-        <div class="image-about">
-            <img src="irshad4.jpg" alt="">
-            <div class="info-about1">
-                <span>1+</span>
-                <p>Years of Experience</p>
-            </div>
-            <div class="info-about2">
-                <span>10+</span>
-                <p>Project Complete</p>
-            </div>
-            <div class="info-about3">
-                <span>100+</span>
-                <p>Happy Coints</p>
-            </div>
-        </div>
-        <div class="about-content">
-            <span>Let Me Introduce myself</span>
-            <h2>About Me</h2>
-            <h3>A Story of good</h3>
-            <p>"Hi, I'm Irshad. I'm currently pursuing at niet coliege greater noida for B-tech in cse-aiml branch and I'm passionate about study dedication. I'm excited to learn, programming and tech, and connect with fellow students during my time here. Looking forward to the journey ahead!".</p>
-            <div class="btn-box">
-                <a href="#" class="btn">Read More!</a>
-            </div>
+    </nav>
 
-        </div>
-     </section>
-     <!--section services------>
-     <section id="services" class="services">
-        <div class="main-text">
-            <span>what i will do for you</span>
-            <h2>Our Services</h2>
-
-        </div>
-        <div class="section-services scroll-scale">
-            <div class="section-services">
-                <div class="service-box">
-                    <i class="fa-regular fa-layer-group service-icon"></i>
-                    <h3>web Developer</h3>
-                    <p>
-                        Highlight your proficiency in relevant technologies such as HTML, CSS, JavaScript, and any frameworks or libraries you're skilled with.that have a positive impact and provide valuable communicating your skills, experiences, and enthusiasm for web development.
-                    </p>
-                    <div class="btn-box service-btn">
-                        <a href="#" class="btn">Read more</a>
-                    </div>
-                </div>
-    
-            </div>
-           
-            <div class="section-services scroll-scale">
-                <div class="service-box">
-                    <i class="fa-sharp fa-solid fa-code service-icon"></i>
-                    <h3>Python programming</h3>
-                    <p>
-                        Python is a versatile programming language suitable for a wide range of applications, including web development, data analysis, machine learning, scientific computing, and more Python's clean and readable, 
-                    </p>
-                    <div class="btn-box service-btn">
-                        <a href="#" class="btn">Read more</a>
-                    </div>
-                </div>
-    
-            </div>
-            <div class="section-services scroll-scale">
-                <div class="service-box">
-                    <i class="fa-solid fa-desktop service-icon"></i>
-                    <h3>Java Developer</h3>
-                    <p>
-                        Highlight your proficiency in core Java programming, including knowledge of Java fundamentals, data structures, and object-oriented principles. Mention any Java frameworks you're skilled in, such as Spring, Hibernate, or JavaFX.
-                    </p>
-                    <div class="btn-box service-btn">
-                        <a href="#" class="btn">Read more</a>
-                </div>
-
-            </div>
-        </div>
-    </section>
-    <!---skills section------>
-    <section id="skills" class="skills">
-        <div class="main-text scroll-scale">
-            <span>Technical and Professional</span>
-            <h2>My Skills</h2>
-        </div>
-        <div class="skill-main">
-            <div class="skill-left scroll-scale">
-                <h3>Technical Skills</h3>
-                <div class="skill-bar">
-                    <div class="info">
-                        <p>HTML</p>
-                        <p>75%</p>
-
-                    </div>
-                    <div class="bar">
-                        <span slass="html"></span>
-                    </div>
-                </div>
-                <div class="skill-bar">
-                    <div class="info">
-                        <p>JAVA</p>
-                        <p>80%</p>
-
-                    </div>
-                    <div class="bar">
-                        <span class="java"></span>
-                    </div>
-                </div>
-                <div class="skill-bar">
-                    <div class="info">
-                        <p>PYTHON</p>
-                        <p>90%</p>
-
-                    </div>
-                    <div class="bar">
-                        <span class="python"></span>
-                    </div>
-                </div>
-                <div class="skill-bar">
-                    <div class="info">
-                        <p>CSS</p>
-                        <p>83%</p>
-
-                    </div>
-                    <div class="bar">
-                        <span class="css"></span>
-                    </div>
+    <!-- Hero Section -->
+    <div id="particles-js">
+        <section class="hero">
+            <div class="hero-left">
+                <p class="tagline">WE DESIGN & BUILD BRANDS</p>
+                <h1>Hi, I am <span>Irshad Alam</span> <br>I build responsive & modern portfolio websites.</h1>
+                <div class="buttons">
+                    <a href="#" class="btn primary">Hire me</a>
+                    <a href="./assets/irshad_resume.pdf" class="btn outline" download>Download CV</a>
                 </div>
             </div>
-            <div class="skill-right scroll-scale">
-                <h3>Professional Skills</h3>
-                <div class="professional">
-                    <div class="box">
-                        <div class="circle" data-dots="60" data-percent="90"></div>
-                            
-                        <div class="text">
-                            <big>90%</big>
-                            <small>Team Work</small>
-                        </div>
-                    </div>
-                    <div class="box">
-                        <div class="circle" data-dots="50" data-percent="90"></div>
-                        <div class="text">
-                            <big>800%</big>
-                            <small>Creativity</small>
-                        </div>
-                    </div>
-                    <div class="box">
-                        <div class="circle" data-dots="50" data-percent="90"></div>
-                
-                        <div class="text">
-                            <big>70%</big>
-                            <small>Project Manegment</small>
-                        </div>
-                    </div>
-                    <div class="box">
-                        <div class="circle" data-dots="50" data-percent="90"></div>
-                          
-                        <div class="text">
-                            <big>65%</big>
-                            <small>Communication</small>
-                        </div>
-                    </div>
-                </div>
-        </div>
-    </section>
-    <section id="portfolio" class="portfolio">
-        <div class="main-text scroll-scale">
-            <span>what i will do for you</span>
-            <h3>Letest Project</h3>
-        </div>
+            <div class="hero-right">
+                <div class="bg-skew"></div>
+                <img src="./assets/PORT.jpg" alt="Irshad" />
+            </div>
+        </section>
+    </div>
+
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
         <div class="container">
-            <div class="fillter-button">
-                <button class="btn" data-filter="all">All</button>
-                <button class="btn" data-filter=".Product">Product</button>
-                <button class="btn" data-filter=".inter">Interacting</button>
-                <button class="btn" data-filter=".web">Web App</button>
-            </div>
-            <div class="portfolio-gallery">
-                <div class="port-box mix Product">
-                    <div class="port-image">
-                        <img src="1.jpg" alt="">
-                    </div>
-                    <div class="port-content">
-                        <h3>Graphics Design</h3>
-                        <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, tenetur minus deserunt ipsum adipisci iste quae maxime, debitis sint laudantium iusto aperiam veritatis, ipsa tempore soluta delectus obcaecati enim sunt.
-
-                        </p>
-                        <a href="#"><i class="fa-solid fa-link"></i></a> 
-                    </div>
+            <div class="about-grid">
+                <div class="about-img">
+                    <img src="./assets/intro irshad image.jpg" alt="Profile Picture">
                 </div>
-                <div class="port-box mix product">
-                    <div class="port-image">
-                        <img src="2.jpg" alt="">
-                    </div>
-                    <div class="port-content">
-                        <h3>Web Develope</h3>
-                        <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, tenetur minus deserunt ipsum adipisci iste quae maxime, debitis sint laudantium iusto aperiam veritatis, ipsa tempore soluta delectus obcaecati enim sunt.
+                <div class="about-content">
+                    <h5 class="section-subtitle">MY INTRODUCTION</h5>
+                    <h2>About Me</h2>
+                    <p>
+                        I'm Irshad Alam, a Software developer from Bihar.
+                        I enjoy building responsive and user-friendly websites.
+                        Skilled in Java Python HTML, CSS, and JavaScript with hands-on project experience.
+                        Created a Multiple Disease Prediction,Images Classificatin for leave project and personal portfolio.
+                        I'm passionate about Software developer and problem solving.
+                        Looking to grow in a tech-driven team and learn more every day.
+                    </p>
 
-                        </p>
-                        <a href="#"><i class="fa-solid fa-link"></i></a> 
-                    </div>
-                </div>
-                <div class="port-box mix inter">
-                    <div class="port-image">
-                        <img src="3.jpg" alt="">
-                    </div>
-                    <div class="port-content">
-                        <h3>App Developer</h3>
-                        <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, tenetur minus deserunt ipsum adipisci iste quae maxime, debitis sint laudantium iusto aperiam veritatis, ipsa tempore soluta delectus obcaecati enim sunt.
+                    <p><em>“Design is intelligence made visible. Code brings it to life.”</em></p>
 
-                        </p>
-                        <a href="#"><i class="fa-solid fa-link"></i></a> 
-                    </div>
-                </div>
-                <div class="port-box mix inter">
-                    <div class="port-image">
-                        <img src="4.jpg" alt="">
-                    </div>
-                    <div class="port-content">
-                        <h3>Python programming</h3>
-                        <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, tenetur minus deserunt ipsum adipisci iste quae maxime, debitis sint laudantium iusto aperiam veritatis, ipsa tempore soluta delectus obcaecati enim sunt.
 
-                        </p>
-                        <a href="#"><i class="fa-solid fa-link"></i></a> 
+                    <div class="about-details">
+                        <p><strong>Name:</strong> Irshad Alam</p>
+                        <p><strong>Date of birth:</strong> March 18, 2003</p>
+                        <p><strong>Address:</strong> Satwaria, Bihar , India</p>
+                        <p><strong>Zip code:</strong> 845451</p>
+                        <p><strong>Email:</strong> mohammadirshad9163@gmail.com</p>
+                        <p><strong>Phone:</strong> +91-98018-35063</p>
                     </div>
-                </div>
-                <div class="port-box mix inter">
-                    <div class="port-image">
-                        <img src="5.jpg" alt="">
-                    </div>
-                    <div class="port-content">
-                        <h3>Java Developer</h3>
-                        <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, tenetur minus deserunt ipsum adipisci iste quae maxime, debitis sint laudantium iusto aperiam veritatis, ipsa tempore soluta delectus obcaecati enim sunt.
-
-                        </p>
-                        <a href="#"><i class="fa-solid fa-link"></i></a> 
-                    </div>
-                </div>
-                <div class="port-box mix web">
-                    <div class="port-image">
-                        <img src="6.jpg" alt="">
-                    </div>
-                    <div class="port-content">
-                        <h3>Graphics Design</h3>
-                        <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, tenetur minus deserunt ipsum adipisci iste quae maxime, debitis sint laudantium iusto aperiam veritatis, ipsa tempore soluta delectus obcaecati enim sunt.
-
-                        </p>
-                        <a href="#"><i class="fa-solid fa-link"></i></a> 
+                    <div class="interests">
+                        <span><i class="fas fa-music"></i> Music</span>
+                        <span><i class="fas fa-plane"></i> Travel</span>
+                        <span><i class="fas fa-film"></i> Movie</span>
+                        <span><i class="fas fa-futbol"></i> Sports</span>
                     </div>
                 </div>
             </div>
-
         </div>
     </section>
-    <!--contact section-->
-    <section id="contact" class="contact">
-        <div class="main-text">
-            <span>Ask me question</span>
-            <h2>Contact Me</h2>
+
+    <section id="skills" class="skills-section">
+        <h2>My Skills</h2>
+        <div class="skills-slider">
+            <div class="skills-track">
+                <!-- Skill Cards x2 for seamless loop -->
+                <!-- 1st Set -->
+                <div class="skill-card">
+                    <img src="./assets/html.png" class="skill-icon" alt="HTML" />
+                    <h4>HTML</h4>
+                    <div class="level-label">95%</div>
+                </div>
+                <div class="skill-card">
+                    <img src="./assets/css.png" class="skill-icon" alt="CSS" />
+                    <h4>CSS</h4>
+                    <div class="level-label">92%</div>
+                </div>
+                <div class="skill-card">
+                    <img src="./assets/javascript.png" class="skill-icon" alt="JavaScript" />
+                    <h4>JavaScript</h4>
+                    <div class="level-label">80%</div>
+                </div>
+                <div class="skill-card">
+                    <img src="./assets/bootstrap.png" class="skill-icon" alt="Bootstrap" />
+                    <h4>Bootstrap</h4>
+                    <div class="level-label">90%</div>
+                </div>
+                <div class="skill-card">
+                    <img src="./assets/react.png" class="skill-icon" alt="React" />
+                    <h4>React</h4>
+                    <div class="level-label">78%</div>
+                </div>
+                <div class="skill-card">
+                    <img src="./assets/figma.png" class="skill-icon" alt="Figma" />
+                    <h4>Figma</h4>
+                    <div class="level-label">60%</div>
+                </div>
+                <div class="skill-card">
+                    <img src="./assets/java.png" class="skill-icon" alt="Java" />
+                    <h4>Java</h4>
+                    <div class="level-label">80%</div>
+                </div>
+                <div class="skill-card">
+                    <img src="./assets/node js.png" class="skill-icon" alt="Node JS" />
+                    <h4>Node JS</h4>
+                    <div class="level-label">70%</div>
+                </div>
+                <div class="skill-card">
+                    <img src="./assets/github.png" class="skill-icon" alt="GitHub" />
+                    <h4>GitHub</h4>
+                    <div class="level-label">70%</div>
+                </div>
+
+                <!-- Duplicate set -->
+                <div class="skill-card">
+                    <img src="./assets/html.png" class="skill-icon" alt="HTML" />
+                    <h4>HTML</h4>
+                    <div class="level-label">95%</div>
+                </div>
+                <div class="skill-card">
+                    <img src="./assets/css.png" class="skill-icon" alt="CSS" />
+                    <h4>CSS</h4>
+                    <div class="level-label">92%</div>
+                </div>
+                <div class="skill-card">
+                    <img src="./assets/javascript.png" class="skill-icon" alt="JavaScript" />
+                    <h4>JavaScript</h4>
+                    <div class="level-label">70%</div>
+                </div>
+                <div class="skill-card">
+                    <img src="./assets/bootstrap.png" class="skill-icon" alt="Bootstrap" />
+                    <h4>Bootstrap</h4>
+                    <div class="level-label">80%</div>
+                </div>
+                <div class="skill-card">
+                    <img src="./assets/react.png" class="skill-icon" alt="React" />
+                    <h4>React</h4>
+                    <div class="level-label">78%</div>
+                </div>
+                <div class="skill-card">
+                    <img src="./assets/figma.png" class="skill-icon" alt="Figma" />
+                    <h4>Figma</h4>
+                    <div class="level-label">60%</div>
+                </div>
+                <div class="skill-card">
+                    <img src="./assets/java.png" class="skill-icon" alt="Java" />
+                    <h4>Java</h4>
+                    <div class="level-label">75%</div>
+                </div>
+                <div class="skill-card">
+                    <img src="./assets/node js.png" class="skill-icon" alt="Node JS" />
+                    <h4>Node JS</h4>
+                    <div class="level-label">70%</div>
+                </div>
+                <div class="skill-card">
+                    <img src="./assets/github.png" class="skill-icon" alt="GitHub" />
+                    <h4>GitHub</h4>
+                    <div class="level-label">70%</div>
+                </div>
+            </div>
         </div>
-        <from actino="#">
-            <input type="text" placeholder="Your Name">
-            <input type="text" placeholder="Your email">
-            <input type="text" placeholder="Your Address">
-            <input type="text" placeholder="Phone Number">
-            <textarea name="" id="" cols="30" rows="10" placeholder="Your Massage"></textarea>
-            <div class="btn-box fromBtn">
-                <button type="Submit" class="btn">Send Message</button>
+    </section>
+
+
+    <!-- Project card -->
+
+    <section id="projects" class="projects-section">
+        <h2 class="section-title">My Projects</h2>
+        <div class="projects-grid">
+            <div class="project-card">
+                <img src="./assets/trend.png" alt="Project 1" />
+                <div class="project-info">
+                    <h3>Smart Research Assistant</h3>
+                    <p>HTML, CSS, Bootstrap</p>
+                    <a href="https://smartassistantirshad.streamlit.app/" target="_blank">View Project</a>
+                </div>
             </div>
 
-        </from>
+            <div class="project-card">
+                <img src="./assets/neolearn.png" alt="Project 2" />
+                <div class="project-info">
+                    <h3>Learning Institute</h3>
+                    <p>HTML, CSS, JS</p>
+                    <a href="https://rameshkannan-dev.github.io/Neo-Learning/" target="_blank">View Project</a>
+                </div>
+            </div>
 
+            <div class="project-card">
+                <img src="./assets/portfoliowesite.png" alt="Project 3" />
+                <div class="project-info">
+                    <h3>Portfolio Website</h3>
+                    <p>HTML, CSS, JS</p>
+                    <a href="http://127.0.0.1:5500/index.html#" target="_blank">View Project</a>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <img src="./assets/go bus.png" alt="Project 3" />
+                <div class="project-info">
+                    <h3>Bus Booking</h3>
+                    <p>HTML, CSS, JS</p>
+                    <a href="https://rameshkannan-dev.github.io/GO_BUS/" target="_blank">View Project</a>
+                </div>
+            </div>
+
+
+            <!-- Add more cards if needed -->
+        </div>
     </section>
-    <!---footer website-->
-    <footer>
-        <p>Copyright & copy; 2023 by IrshadCoder || All Right Reserved.</p>
-        <a href="#home"><i class="fa-solid fa-arrow-up"></i></a>
+
+    <!-- contact -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+
+            <form class="contact-form" onsubmit="handleFormSubmit(event)">
+                <div class="form-group">
+                    <input type="text" id="name" name="name" placeholder="Your Name" required />
+                </div>
+                <div class="form-group">
+                    <input type="email" id="email" name="email" placeholder="Your Email" required />
+                </div>
+                <div class="form-group">
+                    <textarea rows="5" id="message" name="message" placeholder="Your Message" required></textarea>
+                </div>
+                <div class="button-group">
+                    <button type="button" class="btn primary" onclick="sendWhatsApp()">Send Message</button>
+                    <button type="submit" class="btn outline">Send Email</button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+
+    <footer class="footer">
+        <div class="footer-container">
+            <h3>IRSHAD.DEV</h3>
+            <p>Crafting frontend experiences with code & creativity ✨</p>
+            <div class="social-icons">
+                <a href="https://github.com/IR980" target="_blank" title="GitHub Profile">
+                    <i class="fab fa-github"></i>
+                </a>
+
+                <a href="https://www.linkedin.com/in/irshadalam2000/" target="_blank"><i
+                        class="fab fa-linkedin"></i></a>
+                <a href="https://www.instagram.com/irshad.alam98/" target="_blank"><i class="fab fa-instagram"></i></a>
+
+            </div>
+            <p class="copyright">© 2025 Irshad Alam. All rights reserved.</p>
+        </div>
     </footer>
-    <script src="mixitup.min.js"></script>
-    <script src="script.js"></script>
+
+    </section>
+
+
+
+
+
+
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script>
+        ScrollReveal().reveal('.hero-left', { origin: 'left', distance: '50px', duration: 1000, delay: 300 });
+        ScrollReveal().reveal('.hero-right', { origin: 'right', distance: '50px', duration: 1000, delay: 500 });
+        ScrollReveal().reveal('.navbar', { origin: 'top', distance: '20px', duration: 800, delay: 200 });
+        ScrollReveal().reveal('.about-img', { origin: 'left', distance: '50px', duration: 1000, delay: 200 });
+        ScrollReveal().reveal('.about-content', { origin: 'right', distance: '50px', duration: 1000, delay: 300 });
+
+        function sendWhatsApp() {
+            const name = document.getElementById("name").value.trim();
+            const email = document.getElementById("email").value.trim();
+            const message = document.getElementById("message").value.trim();
+
+            const text = `Name: ${name}%0AEmail: ${email}%0AMessage: ${message}`;
+            const phone = "916374023707"; // ← Replace with your number
+            const link = `https://wa.me/${phone}?text=${text}`;
+
+            window.open(link, "_blank");
+        }
+
+        function handleFormSubmit(event) {
+            event.preventDefault();
+            const form = event.target;
+
+            // Replace this with your FormSubmit endpoint
+            const formAction = "https://formsubmit.co/rameshkannan24.in@gmail.com";
+
+            const formData = new FormData(form);
+            fetch(formAction, {
+                method: "POST",
+                body: formData,
+            })
+                .then(() => {
+                    alert("Email sent successfully!");
+                    form.reset();
+                })
+                .catch(() => {
+                    alert("Failed to send email.");
+                });
+        }
+    </script>
 </body>
-</html> 
+
+</html>
